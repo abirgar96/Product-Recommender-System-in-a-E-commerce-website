@@ -1,0 +1,462 @@
+{
+    "intents": [
+        {
+            "tag": "salutations",
+            "patterns": [
+                "bonjour",
+                "Bonsoir",
+                "Salut",
+                "Comment ça va",
+                "Est-ce que quelqu'un est là?",
+                "allo"
+            ],
+            "responses": [
+                "salut",
+                "bonjour,merci pour votre question",
+                "comment peut le servir",
+                "comment peut-je vous aider?",
+                "salut quel est votre question?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Au revoir",
+            "patterns": [
+                "Au revoir",
+                "A tout à l'heure",
+                "bye",
+                "tchao",
+                "à plus tard",
+                "Jusqu'à la prochaine fois"
+            ],
+            "responses": [
+                "bonne journée",
+                "a la prochaine fois",
+                "Bye! Revenez bientôt."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "merci",
+            "patterns": [
+                "merci",
+                "je te remercie beaucoup",
+                "c'est tres  gentil a vous",
+                "Merci de m'avoir aidé"
+            ],
+            "responses": [
+                "Heureux d'aider!",
+                "A chaque moment",
+                "Mon plaisir"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "historique",
+            "patterns": [
+                "Qu'est-ce que sortrak?"
+              ],
+            "responses": [
+                "SORETRAk est une societe anonyme creee le 19 janvier 1963 pour assurer le transport de passagers et de marchandises"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "historique_2",
+            "patterns": [
+                "quelle est l'historique de soretrak?"
+              ],
+            "responses": [
+                "SORETRAk est une societe anonyme creee le 19 janvier 1963 pour assurer le transport de passagers et de marchandises"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "les activites",
+            "patterns": [
+                "quels sont les activites de soretrak?"
+            ],
+            "responses": [
+                " le transport scolaire et universitaire, le transport des voyageurs,Location des bus , le transport des ouvriers"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "les activites_2",
+            "patterns": [
+                "quels sont les services offert par soretrak?"
+            ],
+            "responses": [
+                " le transport scolaire et universitaire, le transport des voyageurs,Location des bus , le transport des ouvriers"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "abonnements",
+            "patterns": [
+                "Comment se fait l'enregistrement  à  distance pour recevoir des abonnements scolaires ?",
+                "Comment se fait l'enregistrement  à distance pour recevoir des abonnements  universitaires?"
+            ],
+            "responses": [
+                "- Entrez les donnees,Cliquez sur le bouton Enregistrer,Choisissez le type d'abonnement,Telecharger votre photo,Verifiez les informations saisies et cliquez sur Soumettre,Cliquez sur payer,"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "les horaires Sousse Kairouan",
+            "patterns": [
+                "quelles sont les horaires des bus  kairouan/sousse mesaken",
+                "bus kairouan-mesaken"
+            ],
+            "responses": [
+                "aller:06:30; 07:15; 08:30; 9:30; 10:30; 12:00;16:00; retour:08:00; 08:45; 10:30; 12:00;  14:00; 18:00"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "les horaires kairouan hay riadh sousse",
+            "patterns": [
+                " les horaires des bus  kairouan - hay raidh souse",
+                "kairouan-hay raidh sousse"
+            ],
+            "responses": [
+                "aller:17:30, retour:18:45 "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "les horaires monastir hay riadh sousse",
+            "patterns": [
+                " monastir - hay raidh souse",
+                "mestir-hay raidh sousse",
+                "monastir/hay raidh",
+                "monstir a travers sousse"
+            ],
+            "responses": [
+                "aller:06:00;14:00, retour:10:30;17:00 "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "les horaires kairouan- nfidha-nabeul",
+            "patterns": [
+                " kairouan- nfidha-nabeul",
+                "kairouan-nfidha",
+                "kairouan- nabeul",
+                "9orwen- nfidha-nabeul"
+            ],
+            "responses": [
+                "aller:05:45;10:15;13:30, retour:10:30;13:30;16:15 "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "les horaires kairouan-sfax",
+            "patterns": [
+                " kairouan-bouhajla sfax",
+                "kairouan-sfax",
+                "kairouan- bouhajla",
+                "9orwen- bouhajla-sfax"
+            ],
+            "responses": [
+                "aller:06:30;13:00, retour:13:00;16:00 "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "les horaires kairouan-waslatiya-saliana",
+            "patterns": [
+                " kairouan-waslatiya-saliana",
+                "kairouan-waslatiya",
+                "kairouan- saliana",
+                "9orwen-waslatiya-saliana"
+            ],
+            "responses": [
+                "aller:06:00, retour:11:00; "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "les horaires kairouan-jem-mahdia",
+            "patterns": [
+                " kairouan-jem-mahdia",
+                "kairouan-mahdia",
+                "kairouan- jam/mahdia",
+                "9orwen-jam mahdia",
+                "kairoan -jem"
+            ],
+            "responses": [
+                "aller:07:00, retour:12:00; "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "prix kairouan_sousse",
+            "patterns": [
+                "prix ticket de bus kairouan/ sousse?",
+                "prix kairouan sousse",
+                "combien coute un ticket de bus kairouan /sousse?"
+                
+            ],
+            "responses": [
+                "4 dinars"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "prix kairouan_sfax",
+            "patterns": [
+                "prix ticket de bus kairouan/ sfax?",
+                "prix kairouan sfax",
+                "combien coute un ticket de bus kairouan /sfax?",
+                "bus kairouan-sfax prix"
+                
+            ],
+            "responses": [
+                "5 dinars"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "prix kairouan_nabeul",
+            "patterns": [
+                "prix ticket de bus kairouan/ nabeul?",
+                "nabeul prix ticket",
+                "combien coute un ticket de bus kairouan /nabeul?",
+                "ticket kairouan nabeul"
+                
+            ],
+            "responses": [
+                "7.400 "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "location1",
+            "patterns": [
+                "quelles sont les procedures  necessaires pour louer un bus ?",
+                "comment peut louer un bus"
+            ],
+            "responses": [
+                "remplire une demande , signer un contrat puis donner les prix de location de bus precise "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "location2",
+            "patterns": [
+                "le prix de location d'un  bus",
+                "prix kilometres du bus",
+                "combient coute de l'heure de bus"
+            ],
+            "responses": [
+                "entre 200 dinars et 400 dinars",
+                "kilometres entre 12 et 15 dinares",
+                "l'heure de location de bus egale 12.700"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "location3",
+            "patterns": [
+                "confort  bus prix",
+                "prix kilometres du bus confort",
+                "  coute de l'heure de bus confort"
+            ],
+            "responses": [
+                "350 dinars",
+                "kilometre 10 dinares",
+                "l'heure de location de bus egale 17 dinars"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "location4",
+            "patterns": [
+                "simple  bus prix",
+                "prix kilometres du bus simple",
+                "coute de l'heure de bus simple"
+            ],
+            "responses": [
+                "200dinars",
+                "kilometre 5 dinares",
+                "l'heure de location de bus egale 6 dinars"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "reservation",
+            "patterns": [
+                "combien coute un ticket de bus bouhajla?"
+            ],
+            "responses": [
+                "2 dinars"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "les lignes",
+            "patterns": [
+                "quelles sont les lignes disponible?",
+                "cet ligne disponibles ou non",
+                "queles sont les bus qui passer par cet station"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "les concours1",
+            "patterns": [
+                "quelles sont les procedures necessaires pour consulter le demande",
+                "les procedures pour faire un concours"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "les concours2",
+            "patterns": [
+                "quels sont  les niveaux demander",
+                "niveaux scolaires"
+            ],
+            "responses": [
+                "Baccalaureat et plus"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "les concours3",
+            "patterns": [
+                "quels sont les postes proposer?",
+                "les metiers disponibles"
+            ],
+            "responses": [
+                "ingenieurs mecanique, chauffeurs,technicien superieur,controleurs"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "les concours4",
+            "patterns": [
+                "quel est le  derniere date pour postuler les demandes",
+                "derniere jour pour le concours"
+            ],
+            "responses": [
+                "2020/12/31"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "les concours5",
+            "patterns": [
+                "quel est le date de resultat du concours ",
+                "date de resultat"
+            ],
+            "responses": [
+                "2021/01/30",
+                "a partir d'un mois de date de demande"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "search_hospital_by_type",
+            "patterns": [],
+            "responses": [
+                "Loading hospital details"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "les concours6",
+            "patterns": [
+                "quel est le nombre  des condidats maximale demande",
+                "nombres maximale des condidats",
+                "nombres des condidats demandee"
+            ],
+            "responses": [
+                "15 personnes"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
